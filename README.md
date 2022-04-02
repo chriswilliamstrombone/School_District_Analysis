@@ -20,7 +20,7 @@
 
 ### School Summary
 
-![per_school_summary.png](Resources/pre_school_summary.png)
+![per_school_summary.png](Resources/per_school_summary.png)
 
 - Looking at the school summary dataframe, as well as the top and bottom performing schools, we can see that replacing math and reading scores for ninth graders at THS had an impact on the rank of the school.
 
