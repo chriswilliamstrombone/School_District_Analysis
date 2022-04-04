@@ -8,10 +8,6 @@
 
 ## Results
 
-- Despite replacing the 461 math and reading scores values for all 9th graders at Thomas High School with NaN, we found only a minor change in the mean of our dataframe.
-    - Reading scores went from 81.87784 to 81.855796, a change of only 0.022044 points.
-    - Math scores went from 78.985371 to 78.930533, a change of only 0.054838 points.
-
 ### School District Summary
 
 - As seen in the image below, the school district summary saw average math scores dropping .1 points, and no change to the average reading scores. The overall percentage was reduced by 1%
@@ -72,3 +68,28 @@
 - Charter schools initially saw scores of 94% passing math, 97% passing reading, 90% overall passing.
 
 - After replacing the ninth grade scores we see 90% passing math, 93% passing reading, 87% overall passing.
+
+### Summary
+
+#### Math and reading scores by grade
+    
+- Despite replacing the 461 math and reading scores values for all ninth graders at Thomas High School with NaN, we found only a minor change in the mean of our dataframe.
+    - Reading scores went from 81.87784 to 81.855796, a change of only 0.022044 points.
+    - Math scores went from 78.985371 to 78.930533, a change of only 0.054838 points.
+
+#### Scores by school spending
+
+- With the removal of the ninth grade scores, the overall passing percentage decreased from 62.9% to 56.4%.
+
+#### Scores by school size
+
+- Replacing the ninth grade scores at Thomas High School only influenced the medium school bin as it has a population of 1,635, but had little impact after adding the NaNs.
+
+#### Scores by school type
+
+- The changes for Charter schools are listed as follows:
+        - Average Math scores declined from 83.47 to 83.46.
+        - Average Reading scores were slightly higher: 83.89 compared to 83.9.
+        - Percent Passing Math declined from 93.6 to 90.3.
+        - Percent  Passing Reading declined from 96.6% to 93.1%.
+        - Percent  Overall Passing decreased from 90.4% to 87.2%.
